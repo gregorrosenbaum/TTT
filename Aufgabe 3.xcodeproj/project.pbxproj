@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC538C22182CCFB5009621D0 /* TTTBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = CC538C21182CCFB5009621D0 /* TTTBrain.m */; };
 		CCEFC8C01827B04200FE6B85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFC8BF1827B04200FE6B85 /* UIKit.framework */; };
 		CCEFC8C21827B04200FE6B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFC8C11827B04200FE6B85 /* Foundation.framework */; };
 		CCEFC8C41827B04200FE6B85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFC8C31827B04200FE6B85 /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC538C20182CCFB5009621D0 /* TTTBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTBrain.h; sourceTree = "<group>"; };
+		CC538C21182CCFB5009621D0 /* TTTBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTBrain.m; sourceTree = "<group>"; };
 		CCEFC8BC1827B04200FE6B85 /* Aufgabe 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aufgabe 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEFC8BF1827B04200FE6B85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CCEFC8C11827B04200FE6B85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				CCEFC8CE1827B04200FE6B85 /* AppDelegate.h */,
 				CCEFC8CF1827B04200FE6B85 /* AppDelegate.m */,
 				CCEFC8D71827B04200FE6B85 /* MainStoryboard_iPhone.storyboard */,
+				CC538C20182CCFB5009621D0 /* TTTBrain.h */,
+				CC538C21182CCFB5009621D0 /* TTTBrain.m */,
 				CCEFC8DA1827B04200FE6B85 /* MainStoryboard_iPad.storyboard */,
 				CCEFC8DD1827B04200FE6B85 /* ViewController.h */,
 				CCEFC8DE1827B04200FE6B85 /* ViewController.m */,
@@ -277,6 +282,7 @@
 				CCEFC8CC1827B04200FE6B85 /* main.m in Sources */,
 				CCEFC8D01827B04200FE6B85 /* AppDelegate.m in Sources */,
 				CCEFC8DF1827B04200FE6B85 /* ViewController.m in Sources */,
+				CC538C22182CCFB5009621D0 /* TTTBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +473,7 @@
 				CCEFC8F91827B04300FE6B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEFC8FA1827B04300FE6B85 /* Build configuration list for PBXNativeTarget "Aufgabe 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				CCEFC8FC1827B04300FE6B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
